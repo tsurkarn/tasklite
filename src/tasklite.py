@@ -48,7 +48,6 @@ def list_tasks():
 
 
 def mark_done(index):
-    # TODO(documentation): this function has no docstring yet.
     tasks = load_tasks()
     try:
         tasks[index]["done"] = True
@@ -59,7 +58,6 @@ def mark_done(index):
 
 
 def remove_task(index):
-    # TODO(documentation): this function has no docstring yet.
     tasks = load_tasks()
     try:
         removed = tasks.pop(index)
