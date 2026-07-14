@@ -21,7 +21,7 @@ No external dependencies — just Python 3.
 ## Usage
 
 ```bash
-python3 src/tasklite.py add --task "Buy milk"
+python3 src/tasklite.py add "Buy milk"
 python3 src/tasklite.py list
 python3 src/tasklite.py done 0
 python3 src/tasklite.py remove 0
